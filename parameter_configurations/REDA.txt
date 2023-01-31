@@ -1,0 +1,7 @@
+# Parameter          value  description
+population_size      10     "The number of solutions that are generated at each iteration"
+elite_size           5      "The size of the set that stores the best solutions visited so far"
+use_model            True   "Whether to use the regression model"
+use_local_search     False  "Whether to perform the local search"
+sampling_multiplier  100    "Sampling factor to increase the sample size when the model is used"
+n_ls                 10     "Limit the local search to the top n_ls solutions"
